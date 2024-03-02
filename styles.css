@@ -1,0 +1,208 @@
+body {
+    background: black;
+    transition: all 0.5s;
+}
+
+.black{
+    background: black;
+}
+
+.gray{
+    background: gray;
+}
+
+.move_top{
+    transform: translateY(0px);
+    
+}
+
+.move_bottom{
+    transform: translateY(20px);
+}
+
+.yellowdeg{
+    background: linear-gradient(to bottom, rgb(228, 112, 112), red);
+    transition: all 0.5s;
+}
+
+.back{
+    background: linear-gradient(to top, red, black);
+    
+
+}
+
+#login {
+    border-bottom: 1px solid red;
+    border-top: 1px solid black;
+    border-left: 1px solid transparent; 
+    border-right: 1px solid transparent; 
+  
+    height: 22em;
+    width: 20em;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+   
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px red;
+    animation: lightBox 1s infinite alternate;
+}
+
+#em {
+    position: relative;
+    left: 5%;
+    top: 3em;
+    line-height: 20px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid black;
+    color: white;
+    font-family: cursive;
+    transition: all 0.5s;
+}
+
+#em:focus {
+    outline:none; 
+    border-bottom-color: white;
+    transform: translateY(18px);
+    
+}
+
+
+#sen {
+    position: relative;
+    left: 18%;
+    top: 7em;
+    line-height: 20px;
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid black; 
+    transition: all 0.5s;
+}
+
+#sen:focus, label{
+  outline: none;
+  border-bottom-color: white;
+  transform: translateY(15px);
+  
+}
+
+
+#button{
+  position: absolute;
+  left: 30%;
+  top: 16em;
+  height: 3em;
+  width: 9em;
+  background: linear-gradient(to top, red, black);
+  color: white;
+  font-family: Impact;
+  border: 1px none red;
+  border-radius: 20px;
+  
+}
+
+#button:active{
+  background: linear-gradient(to top, #f8636B, red);
+}
+
+#button:hover{
+  background: linear-gradient(to top, red,  #451313);
+  cursor: pointer;
+}
+
+.lab{
+  position: relative;
+  top: 115px;
+  right: 178px;
+  color: white;
+  font-family: cursive;
+}
+
+.la{
+  position: relative;
+  top: 40px;
+  right: -70px;
+  color: white;
+  font-family: cursive;
+}
+#remember{
+  position: absolute;
+  top: 13em;
+  right: 245px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+#holofote{
+  background: linear-gradient(to top, grey, black);
+  width: 30%;
+  position: absolute;
+  left: 35%;
+  
+}
+  
+.rem{
+  position: absolute;
+  top: 9.68em;
+  right: 7em;
+  color: white;
+  font-family: cursive;
+}
+@keyframes lightBox {
+   
+    0% {
+        box-shadow: 0px 0px 10px red;
+    }
+    50% {
+        box-shadow: 0px 0px 20px red;
+    }
+    100% {
+        box-shadow: 0px 0px 30px red;
+    }
+}
+
+@keyframes lightBox2 {
+   
+    0% {
+        box-shadow: 0px 0px 10px yellow;
+    }
+    50% {
+        box-shadow: 0px 0px 20px rgb(199, 199, 13);
+    }
+    100% {
+        box-shadow: 0px 0px 30px gold;
+    }
+}
+#luz{
+  opacity: 0;
+  cursor: pointer;
+  transform: translateY(-25px);
+  width: 30px;
+  height:50px;
+}
+
+#int{
+  position: relative;
+  background:gray;
+  width: 35px;
+  height: 50px;
+  border-radius:20px;
+}
+
+#ball{
+  position: relative;
+  left: 2px;
+  background: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  transition: all 0.5s;
+}
+
+.yellowb{
+    border: 3px solid transparent;
+    border-bottom-color: yellow;
+    transition: all 0.2s;
+}
+
